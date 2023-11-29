@@ -1,0 +1,90 @@
+body {
+    background-color: #001878; /* Tono azul claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.navigation {
+    background-color: #333; /* Fondo de la barra de navegación */
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background-color: #add8e6; /* Tono azul medio */
+    border: 2px solid #4682b4; /* Tono azul oscuro */
+    padding: 20px;
+    width: 500px; /* Aumenté el ancho a 400px para acomodar la imagen y el texto */
+    text-align: center;
+}
+
+.box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+h2 {
+    margin-right: 10px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    background-color: #87cefa; /* Tono azul claro */
+    padding: 10px; /* Añadí un poco de relleno para separar el contenido del contenedor */
+    border-radius: 8px; /* Añadí esquinas redondeadas para un aspecto más suave */
+}
+
+.left-image {
+    max-width: 100%;
+    max-height: 200px; /* Ajusta la altura máxima según tus necesidades */
+    height: auto;
+    margin-right: 20px; /* Espaciado entre la imagen y el texto */
+}
+
+p {
+    flex: 1;
+}
+
+button {
+    width: 100%;
+    background-color: #1e90ff; /* Tono azul brillante */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.info-btn {
+    background-color: #4285f4; /* Color de NASA */
+}
+
+.google-btn {
+    background-color: #4285f4; /* Color de Google */
+}
+
+.panel {
+    background-color: #87cefa; /* Tono azul claro */
+    padding: 10px;
+    margin-top: 10px;
+}
